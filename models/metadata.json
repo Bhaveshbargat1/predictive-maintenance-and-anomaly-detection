@@ -1,0 +1,33 @@
+{
+  "feature_columns": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "Temp_Difference_K",
+    "Power_W",
+    "Overstrain_Index",
+    "Speed_Torque_Ratio",
+    "Type_H",
+    "Type_L",
+    "Type_M"
+  ],
+  "numerical_columns": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "Temp_Difference_K",
+    "Power_W",
+    "Overstrain_Index",
+    "Speed_Torque_Ratio"
+  ],
+  "target": "Machine failure",
+  "n_features": 12,
+  "models": [
+    "baseline_logistic_regression",
+    "random_forest"
+  ]
+}
