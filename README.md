@@ -157,8 +157,7 @@ PMAD Project for solar/
 ├── docs/
 │   ├── PROJECT_OVERVIEW.md          # In-depth executive and engineering report
 │   ├── MODEL_EVALUATION.md          # Quantitative benchmarks and cost analysis
-│   ├── LIMITATIONS.md               # Technical limitations & edge roadmap
-│   └── INTERVIEW_DEFENSE.md         # Comprehensive viva voce Q&A guide
+│   └──  LIMITATIONS.md               # Technical limitations & edge roadmap       
 ├── notebooks/
 │   └── exploratory_data_analysis.ipynb # Interactive Jupyter exploratory notebook
 └── tests/
@@ -172,48 +171,3 @@ PMAD Project for solar/
 
 ---
 
-## 7. Windows PowerShell Quickstart Guide
-
-### Step 1: Open PowerShell in Project Directory
-```powershell
-cd "c:\Users\BHAVESH BARGAT\OneDrive\Documents\New folder\PMAD Project for solar"
-```
-
-### Step 2: Install Required Dependencies
-```powershell
-& 'C:\Users\BHAVESH BARGAT\AppData\Local\Python\pythoncore-3.11-64\python.exe' -m pip install -r requirements.txt
-```
-
-### Step 3: Run Automated Pytest Test Suite
-```powershell
-& 'C:\Users\BHAVESH BARGAT\AppData\Local\Python\pythoncore-3.11-64\python.exe' -m pytest tests/ -v
-```
-*(Or double-click `run_tests.bat`)*
-
-### Step 4: Launch the Streamlit Web Application
-```powershell
-& 'C:\Users\BHAVESH BARGAT\AppData\Local\Python\pythoncore-3.11-64\python.exe' -m streamlit run app.py
-```
-*(Or double-click `run_app.bat`)*
-
-The dashboard will automatically open in your default browser at `http://localhost:8501`.
-
----
-
-## 8. Alignment with Solar Industries India Limited
-
-Solar Industries India Limited operates specialized chemical synthesis and mechanical extrusion equipment for energetic materials (industrial explosives, defense rocket propellants, and initiating systems).
-
-In energetic manufacturing:
-1. **Zero Tolerance for Uncontrolled Heating**: Friction spikes in continuous mixers or grinders can induce localized auto-ignition. PMAD’s Process $\Delta T$ monitoring actively flags heat dissipation failures (HDF) before safe temperature margins are breached.
-2. **Spindle Stalling & Drive Trips**: Planetary mixers handling viscous polymer slurries experience fluctuating torque loads. PMAD calculates mechanical power consumption ($P$) in real time to catch motor degradation (PWF).
-3. **Tool Wear Integrity**: In shell casing fabrication and detonator housing turning, worn tools cause dimensional gouging and workpiece rejects. PMAD tracks tool remaining useful life (RUL) and recommends insert replacement prior to tool fracture.
-
----
-
-## 9. Author & Portfolio Information
-
-- **Discipline**: B.Tech Artificial Intelligence and Data Science
-- **Specialization**: Industrial Machine Learning & Predictive Mechatronics
-- **Target Organization**: Heavy Manufacturing & Defense Equipment (Solar Industries India Limited)
-- **License**: MIT Academic & Industrial Research License
